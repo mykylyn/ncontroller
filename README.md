@@ -1,7 +1,7 @@
 
 # Controller
 
-![](ncontroller/blob/main/images/controller.png)
+![](/images/controller.png)
 
 In this app you can use your phone as controller for your pc games. In this project we hope to Intergrated the flutter amazing UI and ergonomically comfortable design to the controller so you can sit back at your couch and play whatever games you want in your pc.
 
