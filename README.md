@@ -1,10 +1,14 @@
-# ncontroller
+# Controller
 
-A new Flutter project.
+In this app you can use your phone as controller for your pc games. In this project we hope to intergrate the flutter amazing UI and ergonomically comfortable desingn to the controller so you can sit back at your couch and play whatever games you want in your pc.
+
+In this project I aim to send information to a python scirpt running in pc about the buttons clicked to invoke the appropriate keyboard presses
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+*It would be helpful if you can add the logic to communicate with the pc using usb
+*Write the code for python script to read the info flutter app sending through usb
+*Tcp, udp protocols are already added to code but not fully intergrated so that they will work seamlessly
 
 A few resources to get you started if this is your first Flutter project:
 
