@@ -4,8 +4,10 @@ import 'package:flutter/services.dart';
 import 'package:ncontroller/usb_serial.dart';
 import 'dart:math' as math;
 import 'button_mode.dart';
-import 'blue_let.dart';
+import 'bluetooth/ble/blue_let.dart';
+import 'usb_serial.dart';
 import 'game_controls.dart';
+import 'package:ncontroller/bluetooth/serial/discover.dart';
 import 'package:material_theme_builder/material_theme_builder.dart';
 
 void main() {
@@ -32,18 +34,19 @@ class MyApp extends StatelessWidget {
       themeMode: ThemeMode.dark,
       theme: ThemeData(
           colorScheme: MaterialThemeBuilder(
-                  brightness: Brightness.dark,
-                  primary: const Color(0xFF2E9D9D),
-                  secondary: Color(0XFF809594),
-                  tertiary: Color(0XFF8292AB),
-                  error: Color(0XFFFF5449),
-                  neutral: Color(0XFF8F9191),
-                  )
-              .toScheme()),
+        brightness: Brightness.dark,
+        primary: const Color(0xFF2E9D9D),
+        secondary: Color(0XFF809594),
+        tertiary: Color(0XFF8292AB),
+        error: Color(0XFFFF5449),
+        neutral: Color(0XFF8F9191),
+      ).toScheme()),
       debugShowCheckedModeBanner: false,
       //home: const MyHomePage(title: "Controller"),
       //home: BleScanner(),
-      home:  Joystickview(),
+      //home  Joystickview(),
+      //home:MyApp(),
+      home: DiscoveryPage(start: true,),
       //home:UsbMode(),
     );
   }

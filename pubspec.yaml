@@ -40,9 +40,7 @@ dependencies:
   udp: ^5.0.3    
   flutter_screenutil: ^5.9.3
   loading_animation_widget: ^1.2.1
-  flutter_ble_peripheral: ^1.2.5
   gui_shape: ^1.0.5
-  flutter_ble_peripheral_central: ^0.0.5
   permission_handler: ^11.3.1
   flutter_blue_plus: ^1.32.8
   get: ^4.6.6
@@ -51,6 +49,10 @@ dependencies:
   provider: ^6.1.2
   tcp_socket_connection: ^0.3.1
   font_awesome_flutter: ^10.7.0
+  usb_serial: ^0.5.2
+  bluetooth_classic: ^0.0.1
+  flutter_bluetooth_serial: ^0.4.0
+  
 
 
 

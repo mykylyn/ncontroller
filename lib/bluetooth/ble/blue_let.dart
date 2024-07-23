@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_blue_plus/flutter_blue_plus.dart';
 import 'package:get/get.dart';
-import 'package:ncontroller/ble_controller.dart';
+import 'package:ncontroller/bluetooth/ble/ble_controller.dart';
 
 class BleScanner extends StatefulWidget {
   const BleScanner({super.key});

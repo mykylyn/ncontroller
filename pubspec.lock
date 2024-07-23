@@ -25,6 +25,14 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "2.11.0"
+  bluetooth_classic:
+    dependency: "direct main"
+    description:
+      name: bluetooth_classic
+      sha256: "0c73a487517b69acb90e2f1c9a21b563fb11771aa1a41ad0fe7d5563b5fb2877"
+      url: "https://pub.dev"
+    source: hosted
+    version: "0.0.1"
   boolean_selector:
     dependency: transitive
     description:
@@ -102,22 +110,6 @@ packages:
     description: flutter
     source: sdk
     version: "0.0.0"
-  flutter_ble_peripheral:
-    dependency: "direct main"
-    description:
-      name: flutter_ble_peripheral
-      sha256: "0f990d7ce7f8c0542bf7616f8b01522f96fc00879b5e8f81706c0603c4fbc652"
-      url: "https://pub.dev"
-    source: hosted
-    version: "1.2.5"
-  flutter_ble_peripheral_central:
-    dependency: "direct main"
-    description:
-      name: flutter_ble_peripheral_central
-      sha256: db208bc4c53faa072f6ab25f1380fd3a770c1fcc686e38ed3942cfb3fedbc844
-      url: "https://pub.dev"
-    source: hosted
-    version: "0.0.5"
   flutter_blue_plus:
     dependency: "direct main"
     description:
@@ -126,6 +118,14 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "1.32.8"
+  flutter_bluetooth_serial:
+    dependency: "direct main"
+    description:
+      name: flutter_bluetooth_serial
+      sha256: "85ae82c4099b2b1facdc54e75e1bcfa88dc7f719e55dc886bb0b648cb16636b1"
+      url: "https://pub.dev"
+    source: hosted
+    version: "0.4.0"
   flutter_joystick:
     dependency: "direct main"
     description:
@@ -477,6 +477,14 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "5.0.3"
+  usb_serial:
+    dependency: "direct main"
+    description:
+      name: usb_serial
+      sha256: a605a600e34e7f28d4e80851ca3999ef747e42e406138887b8a88b8c382a8b07
+      url: "https://pub.dev"
+    source: hosted
+    version: "0.5.2"
   vector_math:
     dependency: transitive
     description:

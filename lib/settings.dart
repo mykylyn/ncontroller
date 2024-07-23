@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:ncontroller/joystickview.dart';
+import 'package:ncontroller/button_mode.dart';
 import 'package:ncontroller/provider/customization.dart';
 import 'package:ncontroller/widget/switch.dart';
 import 'package:provider/provider.dart';
